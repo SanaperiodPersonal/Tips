@@ -28,7 +28,7 @@
 @set _args1_last=
 
 
-@rem Sana edited activate.bat file. "set CONDA_DLL_SEARCH_MODIFICATION_ENABLE=1" is done.
-@echo This is Sana edited version. Use at your own risk.
+@rem Sanaperiod edited activate.bat file. "set CONDA_DLL_SEARCH_MODIFICATION_ENABLE=1"
+@echo This is Sanaperiod edited version. Use at your own risk.
 @echo CONDA_DLL_SEARCH_MODIFICATION_ENABLE=1
 @set CONDA_DLL_SEARCH_MODIFICATION_ENABLE=1
