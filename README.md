@@ -25,4 +25,4 @@ MKLがうまく読まれずにエラーになってる場合の対処法
 `[Anacondaの入っているフォルダ(デフォルトはC:\Users\[ユーザー名])]\Anaconda3\Scripts\activate.bat` に以下の1行を追加。
 `@set CONDA_DLL_SEARCH_MODIFICATION_ENABLE=1`
 ## 参考文献
-(https://conda.io/projects/conda/en/latest/user-guide/troubleshooting.html)
+https://conda.io/projects/conda/en/latest/user-guide/troubleshooting.html
