@@ -1,7 +1,7 @@
 Tips
 ===
 
-概要
+## 概要
 Conda環境でNumpyがimportできない問題
 
 ## 説明
