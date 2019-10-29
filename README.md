@@ -13,13 +13,15 @@ MKLがうまく読まれずにエラーになってる場合の対処法
 - MKLを2018.0.2に戻して対処した人
 
 ## 要求
-- Windows(Windows10 2019 May Update以外のバージョンは試していません)
-- Python 2.7の場合
-  - 2.7.15 build 14 以上
-- Python 3.6の場合
-  - 3.6.8 build 7 以上
-- Python 3.7の場合
-  - 3.7.2 build 8 以上
+- Windows
+  - Windows10 2019 May Update以外のバージョンは試していません
+- Python
+  - Python 2.7の場合
+    - 2.7.15 build 14 以上
+  - Python 3.6の場合
+    - 3.6.8 build 7 以上
+  - Python 3.7の場合
+    - 3.7.2 build 8 以上
 
 ## 使用方法
 `[Anacondaの入っているフォルダ(デフォルトはC:\Users\[ユーザー名])]\Anaconda3\Scripts\activate.bat` に以下の1行を追加。
