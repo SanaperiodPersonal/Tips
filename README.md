@@ -6,6 +6,10 @@ Conda環境でNumpyがimportできない問題
 
 ## 説明
 MKLがうまく読まれずにエラーになってる場合の対処法
+```
+INTEL MKL ERROR: このオペレーティング システムでは %1 は実行されません。 mkl_intel_thread.dll.
+Intel MKL FATAL ERROR: Cannot load mkl_intel_thread.dll.
+```
 こんな方にやってみてほしい
 - conda update numpy mklで最新版にしてみたけどダメだった人
 - System32の中にあるmkl*.dllを削除してみたけどダメだった人
@@ -24,7 +28,10 @@ MKLがうまく読まれずにエラーになってる場合の対処法
     - 3.7.2 build 8 以上
 
 ## 使用方法
-`[Anacondaの入っているフォルダ(デフォルトはC:\Users\[ユーザー名])]\Anaconda3\Scripts\activate.bat` に以下の1行を追加。
+`[Anacondaの入っているフォルダ]\Anaconda3\Scripts\activate.bat` に以下の1行を追加
+
+デフォルトは`C:\Users\[ユーザー名]\Anaconda3\Scripts\activate.bat`
+
 `@set CONDA_DLL_SEARCH_MODIFICATION_ENABLE=1`
 ## 参考文献
 https://conda.io/projects/conda/en/latest/user-guide/troubleshooting.html
