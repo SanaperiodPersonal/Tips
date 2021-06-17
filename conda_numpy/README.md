@@ -1,4 +1,4 @@
-Tips
+Conda Numpy
 ===
 
 ## 概要
