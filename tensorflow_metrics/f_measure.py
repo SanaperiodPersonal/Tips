@@ -66,7 +66,7 @@ class FMeasure(Metric):
                                      self._p_result() + self._r_result())
         return result[0] if len(self.thresholds) == 1 else result
 
-    def reset_state(self):
+    def reset_states(self):
         num_thresholds = len(to_list(self.thresholds))
         K.batch_set_value([(v, np.zeros((num_thresholds,)))
                            for v in self.variables])
